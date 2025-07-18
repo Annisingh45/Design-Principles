@@ -1,10 +1,13 @@
-package com.bridgelabz.singleResponsibilityPrinciple;
+package com.bridgelabz.openClosePrinciple;
+
+import com.bridgelabz.singleResponsibilityPrinciple.Product;
+import com.bridgelabz.singleResponsibilityPrinciple.ShoppingCart;
 
 import java.util.List;
 
 public class CartInvoicePrinter {
-    ShoppingCart shoppingCart=new ShoppingCart();
-    public void invoicePrinter(List<Product> productList)
+    com.bridgelabz.singleResponsibilityPrinciple.ShoppingCart shoppingCart=new ShoppingCart();
+    public void invoicePrinter(List<com.bridgelabz.singleResponsibilityPrinciple.Product> productList)
     {
         System.out.println("Product Invoice!!!");
         System.out.println("TotalNumber Of Product:"+productList.size());

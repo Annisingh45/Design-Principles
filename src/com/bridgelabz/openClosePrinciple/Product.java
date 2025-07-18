@@ -1,4 +1,4 @@
-package com.bridgelabz.singleResponsibilityPrinciple;
+package com.bridgelabz.openClosePrinciple;
 
 public class Product {
     private String productName;
